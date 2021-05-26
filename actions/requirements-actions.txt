@@ -1,0 +1,5 @@
+typing_extensions
+openai
+gspread
+oauth2client
+pandas
