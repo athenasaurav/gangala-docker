@@ -56,12 +56,16 @@ https://www.youtube.com/watch?v=9C1Km6xfdMA
 
 - > docker-compose up --build
 
+It will download the necessary docker images and will build the containers for
+us. Once the containers are ready , we can run the following command to
+make the containers up in running state:
+
+- > sudo docker-compose up
+
 - Check whether the services are up and running using below command:
 - > docker ps -a
 
 - Once you see all the services up and running, open the ip address of the machine in the browser and test the bot
 
-Youtube Video: 
 
-https://youtu.be/qOHszxJsuGs
 
