@@ -20,11 +20,8 @@ Deploying Rasa Bot over Google Cloud Platform using Docker.
 - test out the bot in the browser
 > http://localhost
 
-Youtube Video:
 
-https://www.youtube.com/watch?v=9C1Km6xfdMA
-
-### For deploying over GCP Compute Engine:
+### For deploying over Server:
 - Create the VM instance of Ubuntu over Compute Engine
 - once the instance is created login to the VM using SSH
 - Run the below commands and clone our Docker app:
@@ -50,7 +47,7 @@ https://www.youtube.com/watch?v=9C1Km6xfdMA
 #### Clone the Docker App
 
 - > git clone https://github.com/athenasaurav/gangala-docker.git
-- > cd Rasa_Deployment
+- > cd gangala-docker
 
 #### Build the Docker app and run the services:
 
