@@ -13,9 +13,8 @@ COPY connector/MyIO.py /app
 COPY auction.py /app
 COPY data.json /app
 COPY read_excel.py /app
-COPY booking.py /app
 #install dependencies inside Docker container
 USER root 
-RUN pip install -U pip
-RUN pip install -r requirements-actions.txt 
+RUN pip3 install -U pip
+RUN pip3 install -r requirements-actions.txt
 USER 1001 
