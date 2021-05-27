@@ -1,4 +1,4 @@
-FROM rasa/rasa-sdk:latest 
+FROM rasa/rasa-sdk:2.5.0
 
 #define the working directory of Docker container
 WORKDIR /app 
